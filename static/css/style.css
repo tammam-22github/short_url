@@ -1,0 +1,23 @@
+div{
+    display:grid;
+    justify-items: center;
+    align-items: center;
+    border-radius:10px ;
+    padding: 5px;
+    margin: 5px;
+}
+div > form > div > button{
+    border-radius: 11cqmax;
+}
+body{
+    background: lightseagreen;
+}
+a{
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+fieldset{
+    padding: 10px;
+}

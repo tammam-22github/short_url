@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <p>
+        <label for="url">Url</label>
+    </p>
+    <fieldset>
+        <a href="http{% if request.is_secure %}s{% endif %}://{{request.get_host}}/redirect/{{obj.shortUrl}}">
+            {{request.get_host}}/redirect/{{obj.shortUrl}}
+        </a>
+    </fieldset>
+</div>
+{% endblock content %}
